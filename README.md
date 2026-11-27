@@ -17,6 +17,9 @@
 
 M5Stack Core2、UIFlow2 MicroPython、Thonny、Roller485 Lite 2個（I2C 0x64, 0x65）、起立用バンパー。実機コードは M5、machine、unit.Roller485Unit を使用します。PCはプログラム転送とログ回収に使用しますが、探索中の通信・計算には不要です。
 
+<img width="708" height="398" alt="image" src="https://github.com/user-attachments/assets/88d85136-ef08-4c87-bf5c-e96b22f882f9" />
+二輪倒立振子の外観
+
 ## 実行方法
 
 1. `bayes_opt.py` と実行したいスクリプトをCore2の `/flash` に保存します。
@@ -49,7 +52,9 @@ M5Stack Core2、UIFlow2 MicroPython、Thonny、Roller485 Lite 2個（I2C 0x64, 0
 
 ## 関連記事
 
-- [従来のPCを用いた実験](https://qiita.com/_Moony/items/f1861fb976ffdd8ae82b)
+- [M5StackとMicroPythonで二輪倒立振子を自動起立させ、ベイズ最適化でPDゲインを調整してみた](https://qiita.com/_Moony/items/643a4dd337a24e959e9e)
+- [M5StackとMicroPythonで倒立振子のPDゲインをベイズ最適化する（ゲイン探索結果の再現性を調べてみた）](M5StackとMicroPythonで倒立振子のPDゲインをベイズ最適化する（ゲイン探索結果の再現性を調べてみた）)
+- [ベイズ最適化とランダムサーチを実機で比較してみた ― M5Stack二輪倒立振子のPDゲイン探索 ―](https://qiita.com/_Moony/items/f1861fb976ffdd8ae82b)
 
 ## ライセンス
 
